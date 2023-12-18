@@ -1,0 +1,1 @@
+D:\h2jsc\__study\yoosee-cv2-rstp\venv\scripts\activate&&py -m idlelib D:\h2jsc\__study\yoosee-cv2-rstp\__main__.py

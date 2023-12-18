@@ -1,0 +1,29 @@
+site: https://viblo.asia/p/tan-man-mot-chut-ve-ky-thuat-streaming-4P856q9BlY3
+
+Stream là một kỹ thuật chuyển dữ liệu theo dòng ổn định và liên tục.
+	Khái niệm này bắt đầu có từ năm 1920 khi George Owen Squier được cấp bằng sáng chế cho một hệ thống truyền tải và phân phối các tín hiệu qua đường dây điện
+
+Các thành phần của 1 video live stream:
+	Trình phát video chạy trên trình duyệt
+	Nội dung của video sẽ bị encode thành các chuỗi bytes (thành nhiều khối rời rạc)
+	Trình phát video có thể chuyển đổi khối lượng dữ liệu ở bất kỳ thời điểm trong stream.
+		Trình phát video dựa trên RTMP
+		Trình phát video dựa trên HTTP
+
+Âm thanh stream được nén bằng cách sử dụng định dạng âm thanh như MP3, Vorbis, AAC.
+Hình ảnh video stream được nén bằng cách sử dụng codec video như H.264, H.265, VP8.
+Mã hóa âm thanh và video stream được nhúng trong một gói bitstream như FLV, WebM, ASF, ISMA, MP4.
+Một streaming server truyền Bitstream tới một streaming client bằng cách sử dụng một giao thức truyền tải, ví dụ như là MMS hoặc RTP.
+	Giao thức UDP (User Datagram Protocol)
+	Giao thức RTSP (Real-time Streaming Protocol): ra đời vào năm 1996
+		có hình thức khá giống giao thức HTTP, định nghĩa các tín hiệu điều khiển tuần tự, phục vụ cho việc điều khiển playback.
+		HTTP là giao thức không trạng thái, RTSP là giao thức có trạng thái
+		RTSP sử dụng TCP để duy trì kết nối đầu cuối giống HTTP, port mặc định là 554.
+	Giao thức RTMP (Real-time Messaging Protocol): ra đời vào năm 2008
+		dựa trên TCP, liên tục duy trì kết nối, cho phép giao tiếp với độ trễ thấp.
+	Giao thức HLS (HTTP Live Streaming): ra đời vào năm 2009
+		dựa trên giao thức HTTP ở tầng ứng dụng của Internet, hoạt động bằng cách băm luồng thành nhiều tập tin nhỏ (HTTP-based transport stream) - .ts files
+		Các tập tin này được sắp xếp lại thứ tự bởi UTF-8 M3U playlist (.m3u8).
+	Giao thức MPEG-DASH (Dynamic Adaptive Streaming over HTTP): ra đời vào năm 2010
+		có phương thức hoạt động khá giống HLS, chia nội dung thành các chuỗi tập tin nhỏ.
+Các streaming client có thể tương tác với streaming server bằng cách sử dụng một giao thức kiểm soát, chẳng hạn như MMS hoặc RTSP.
